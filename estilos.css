@@ -1,0 +1,98 @@
+
+    
+
+body{
+	
+	background-color: white;
+	
+}
+
+.header-imagen{
+background-size: cover;
+background-repeat:no-repeat;
+background-position: center;
+background-image: url(../img/fondo.jpg);
+height: 600px;
+text-align: center;
+position: relative;
+
+}
+
+.navbar-form .form-control {
+	width: 400px;
+}
+
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left:0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#416575;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background:#7DD6F6;}
+	.social ul li .icon-googleplus {background:#EA0136;}
+	.social ul li .icon-instagram {background:#d95232;}
+	.social ul li .icon-mail {background:#666666;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+
+
+
+
+
+
+footer{
+align-self: flex-end;	
+background-color:gray;
+line-height: 3;
+text-align: center;
+width: 100%;
+
+}
+
+
+
+
+
+
+/*
+.header-inner{
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%);
+color: #fff;
+
+}
+
+.header-overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.5);
+
+
+}
